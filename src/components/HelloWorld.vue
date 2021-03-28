@@ -8,11 +8,15 @@
           selected-color="red"
           :items="items"
           open-all
+          hoverable
         ></v-treeview>
       </v-col>
     </v-row>
     <v-row>
-      <v-col cols="12"> <v-btn dark>掃除したよー</v-btn> </v-col>
+      <v-col cols="12">
+        <v-btn>もとに戻すよ</v-btn>
+        <v-btn dark>掃除したよ</v-btn></v-col
+      >
     </v-row>
   </v-container>
 </template>
